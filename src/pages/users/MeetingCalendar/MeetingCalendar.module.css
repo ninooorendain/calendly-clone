@@ -1,0 +1,20 @@
+.boxShadow {
+  	box-shadow: 0 -3px 5px -3px #b3b5ba;
+}
+.troubleshootBtn {
+  max-width: 320px;
+}
+
+.dateContainer {
+  max-width: 800px;
+  min-height: 700px;
+}
+
+.dateWithParams {
+  max-width: 1060px;
+}
+
+.timeSelectContainer {
+  height: 700px;
+  overflow-y: scroll;
+}

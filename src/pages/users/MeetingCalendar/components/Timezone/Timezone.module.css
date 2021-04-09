@@ -1,0 +1,22 @@
+.cardContainer {
+  min-height: 85vh;
+  margin-top: 0px;
+  transform: none;
+	box-shadow: 0 -3px 5px -3px #b3b5ba;
+}
+
+.closeBtn {
+  width: 100%;
+}
+.troubleshootBtn {
+  max-width: 320px;
+}
+
+@media only screen and (min-width: 600px) {
+  .cardContainer {
+    max-height: 320px;
+    min-height: 0vh;
+    width: 396px;
+    overflow-y: scroll;
+  }
+}

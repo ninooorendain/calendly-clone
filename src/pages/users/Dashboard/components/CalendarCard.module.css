@@ -1,0 +1,10 @@
+.cardWidth {
+  min-width: 350px;
+}
+
+@media only screen and (max-width: 500px) {
+
+.cardWidth {
+  min-width: 310px;
+}
+}

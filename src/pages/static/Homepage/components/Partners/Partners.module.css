@@ -1,0 +1,29 @@
+.numbers {
+  font-size: 50px;
+}
+
+.hugeTicker {
+  border: #454952 1px solid;
+  background-color: #fff;
+}
+
+.image {
+  width: 150px;
+  height: 100px;
+}
+
+.hoverize {
+  display: none;
+}
+.hoverize li {
+  cursor: pointer;
+}
+.containerHover:hover .hoverize {
+  display: block;
+}
+
+@media only screen and (min-width: 1000px) {
+  .numbers {
+    font-size: 136px;
+  }
+}

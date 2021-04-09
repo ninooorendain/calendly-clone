@@ -1,0 +1,29 @@
+.menuIcon {
+  height: 40px;
+  width: 30px;
+  margin-top: 10px;
+}
+.logo {
+  width: 115px;
+  height: 35px;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+.maxWidth {
+  max-width: 980px;
+}
+
+.playImage {
+  max-width: 320px;
+  max-height: 180px;
+}
+
+@media only screen and (max-width:500px) {
+  .logo {
+    width: 85px;
+    height: 25px;
+  }
+  .playImage {
+    max-width: 270px;
+  }
+}

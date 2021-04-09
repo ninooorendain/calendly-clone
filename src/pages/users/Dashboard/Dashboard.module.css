@@ -1,0 +1,17 @@
+.maxWidth {
+  max-width: 1120px;
+}
+
+.hoverContainer:hover {
+  background: #F3FAFF;
+}
+.toggle__dot {
+  top: -.25rem;
+  left: -.25rem;
+  transition: all 0.3s ease-in-out;
+}
+
+input:checked ~ .toggle__dot {
+  transform: translateX(100%);
+  background-color: #00A3FA;
+}
